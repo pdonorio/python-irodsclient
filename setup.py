@@ -10,7 +10,7 @@ with open(os.path.join(here, 'irods/version.py')) as file:
 
 
 # Get description
-with open('README.rst') as file:
+with open('README.rst', encoding='utf-8') as file:
     long_description = file.read()
 
 
